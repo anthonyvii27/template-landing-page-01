@@ -13,6 +13,10 @@ Olá, esse projeto é um template do front-end de uma Landing Page desenvolvida 
 
 **Preview:** [Clique aqui](https://enthonydev-landing-page-01.netlify.app/)
 
+<br />
+
+### Estatísticas do template
+<img src="https://uploaddeimagens.com.br/images/003/054/447/full/metrics.png?1611769767">
 
 <br />
 
