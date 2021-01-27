@@ -1,0 +1,472 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+button, select, input {
+    border: none;
+    outline: none;
+}
+
+button:focus, select:focus, input:focus {
+    outline: none;
+}
+
+/* ------------------------------- WIDTH -------------------------------- */
+.w-700 {
+    width: 700px;
+}
+
+/* ------------------------------- HELPERS ------------------------------ */
+.text-centered {
+    text-align: center;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px !important;
+}
+
+.white {
+    color: #FFF;
+}
+
+/* ------------------------- SECTIONS PATTERNS -------------------------- */
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 80px;
+}
+
+
+/* ------------------------------ BUTTONS ------------------------------- */
+.btn-default {
+    padding: 10px 30px;
+    background: #18A4E0;
+    color: #FFF;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn-default:hover {
+    text-decoration: none;
+    background: #168BBD;
+    color: #FFF;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+
+/* -------------------------- SECTIONS COLORS --------------------------- */
+.section-gray {
+    background: #F3F3F3;
+}
+
+.section-blue {
+    background: #18A4E0;
+}
+
+/* ------------------------------- NAVBAR ------------------------------- */
+.navbar {
+    background: #043353;
+    padding: 0px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFF;
+    border-bottom: 2px solid transparent;
+    padding: 20px 10px;
+}
+
+.nav-item:hover {
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+
+/* ------------------------------- BANNER ------------------------------- */
+.banner {
+    position: relative;
+    z-index: 999;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    background: url(../images/bg01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.banner-overlay{
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.banner p {
+    color: #E5E5E5;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.banner-newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.banner-newsletter form input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 270px;
+    margin-right: 10px;
+}
+
+.banner-newsletter form button {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    background: #07A433;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.banner-newsletter form button:hover {
+    background: #078A2C;
+    transition: .5s ease;
+}
+
+
+/* ------------------------------- AWARDS ------------------------------- */
+.award-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.award-card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.award {
+    width: 80px;
+}
+
+
+/* ----------------------------- WHAT WE DO ------------------------------ */
+.segments {
+    padding: 100px 0 120px 0;
+}
+
+.segment-card-content {
+    background: #E5E5E5;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.segment-card-content:hover {
+    box-shadow: 3px 3px 20px #CCC;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.segment-card-content i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.segment-card-content h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+/* ----------------------------- SERVICE ------------------------------ */
+.service {
+    padding: 100px;
+}
+
+.service-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #AAA;
+}
+
+.service-title {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0 0 20px 0;
+}
+
+.service-subtitle {
+    font-size: 17px;
+    font-weight: 400;
+    color: #777;
+}
+
+.service-items {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+.service-items i {
+    color: #07A433;
+    margin-right: 15px;
+}
+
+
+/* ----------------------------- METRICS ------------------------------- */
+.metrics {
+    background-color: #18A4E0;
+    padding: 40px;
+}
+
+.metrics-icon {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 10px 0;
+}
+
+.metrics-content {
+    text-align: center;
+    color: #E5E5E5;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.metrics-content span {
+    font-size: 30px;
+    font-weight: 500;
+    color: #E5E5E5;
+}
+
+
+/* ----------------------------- PRODUCTS ------------------------------ */
+.products {
+    padding: 100px;
+}
+
+.products-item {
+    padding: 20px 10px;
+}
+
+.products-card {
+    width: 100%;
+    height: 220px;
+    background: #FFF;
+    border-radius: 10px;
+}
+
+.products-card:hover {
+    box-shadow: 3px 3px 20px #CCC;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.products-card img {
+    width: 100%;
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.products-card h2 {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    color: #555;
+}
+
+.products .see-more {
+    width: 100%;
+}
+
+.products .see-more a {
+    float: right;
+    color: #18A4E0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.products .see-more a:hover {
+    color: #168BBD;
+    text-decoration: none;
+    transition: .4s ease;
+}
+
+
+/* ----------------------------- TESTIMONIALS ------------------------------ */
+.testimonials {
+    padding: 50px;
+}
+
+.testimonials-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.testimonials-subtitle {
+    font-size: 17px;
+}
+
+.testimonials-list {
+    height: 600px;
+}
+
+.testimonials-card {
+    height: 150px;
+    padding: 15px 0;
+}
+
+.testimonials-card-details {
+    border-left: 5px solid #18A4E0;
+    height: 120px;
+    padding: 10px 25px;
+}
+
+.testimonials-card-details:hover {
+    background: #F7F7F7;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.testimonials-card div p {
+    color: #555;
+    font-size: 16px;
+}
+
+.testimonials-card div span {
+    color: #888;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.testimonials-card-rating {
+    float: right;
+    font-size: 12px;
+    color: #18A4E0;
+}
+
+
+/* ------------------------------- CONTACT ------------------------------- */
+.contact {
+    padding: 50px;
+}
+
+.contact-form input, .contact-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #CECECE;
+    margin-bottom: 30px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #CECECE;
+    margin-bottom: 20px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.contact-form button {
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 2px solid #CECECE;
+    background: #043353;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.contact-form button:hover {
+    background: #014454;
+    transition: .4s ease;
+}
+
+
+/* ------------------------------- FOOTER ------------------------------- */
+.footer {
+    padding: 80px;
+    background: #043353;
+}
+
+.footer h1 {
+    color: #FFF;
+    margin-bottom: 25px;
+}
+
+.footer-credits {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-credits a:hover {
+    text-decoration: none;
+}
+
+.footer-social-media {
+    list-style: none;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer-social-media div {
+    display: flex;
+    font-size: 35px;
+}
+
+.footer-social-media div i {
+    color: #FFF;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.footer-social-media div i:hover {
+    color: #18A4E0;
+    transition: .4s ease;
+}
