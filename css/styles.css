@@ -60,7 +60,7 @@ button:focus, select:focus, input:focus {
 /* ------------------------------ BUTTONS ------------------------------- */
 .btn-default {
     padding: 10px 30px;
-    background: #18A4E0;
+    background: #168BBD;
     color: #FFF;
     font-weight: 500;
     border-radius: 5px;
@@ -68,7 +68,7 @@ button:focus, select:focus, input:focus {
 
 .btn-default:hover {
     text-decoration: none;
-    background: #168BBD;
+    background: #12729B;
     color: #FFF;
     cursor: pointer;
     transition: .4s ease;
@@ -81,7 +81,7 @@ button:focus, select:focus, input:focus {
 }
 
 .section-blue {
-    background: #18A4E0;
+    background: #168BBD;
 }
 
 /* ------------------------------- NAVBAR ------------------------------- */
@@ -261,7 +261,7 @@ button:focus, select:focus, input:focus {
 
 /* ----------------------------- METRICS ------------------------------- */
 .metrics {
-    background-color: #18A4E0;
+    background-color: #168BBD;
     padding: 40px;
 }
 
@@ -328,7 +328,7 @@ button:focus, select:focus, input:focus {
 
 .products .see-more a {
     float: right;
-    color: #18A4E0;
+    color: #168BBD;
     font-weight: 500;
     font-size: 20px;
     margin-top: 25px;
@@ -366,7 +366,7 @@ button:focus, select:focus, input:focus {
 }
 
 .testimonials-card-details {
-    border-left: 5px solid #18A4E0;
+    border-left: 5px solid #168BBD;
     height: 120px;
     padding: 10px 25px;
 }
@@ -391,7 +391,7 @@ button:focus, select:focus, input:focus {
 .testimonials-card-rating {
     float: right;
     font-size: 12px;
-    color: #18A4E0;
+    color: #168BBD;
 }
 
 
@@ -485,6 +485,6 @@ button:focus, select:focus, input:focus {
 }
 
 .footer-social-media i:hover {
-    color: #18A4E0;
+    color: #168BBD;
     transition: .4s ease;
 }
