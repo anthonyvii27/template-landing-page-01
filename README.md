@@ -9,7 +9,9 @@
 <br />
 
 ### O que é
-Olá, esse projeto é um template do front-end de uma Landing Page desenvolvida utilizando apenas HTML, CSS e Bootstrap. Sua simplicidade foi pensada para que novos desenvolvedores possam pegar e criar seus sites utilizando este template como base para os projetos.
+Olá, esse projeto é um template do front-end de uma Landing Page desenvolvida utilizando apenas HTML, CSS e Bootstrap. Sua simplicidade foi pensada para que novos desenvolvedores possam pegar e criar seus sites utilizando este template como base para os projetos. 
+
+**Preview:** [Clique aqui](https://enthonydev-landing-page-01.netlify.app/)
 
 
 <br />
