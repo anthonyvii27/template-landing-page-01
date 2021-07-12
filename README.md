@@ -4,7 +4,7 @@
 
 **Versão:** 1.0
 
-**Autor:** [Anthony Vinicius](https://instagram.com/enthony.dev)
+**Autor:** [Anthony Vinicius](https://instagram.com/vii.enthony)
 
 <br />
 
@@ -30,7 +30,7 @@ O uso deste template é livre, sem necessidade de dar créditos ao criador ou de
 Abra o terminal da sua máquina e rode o comando abaixo (certifique-se de ter o Git instalado):
 
 ```git
-git clone https://github.com/anthonyvii27/landing-page-01.git
+git clone https://github.com/anthonyvii27/template-landing-page-01/
 ```
 Feito isso, você terá na sua máquina o projeto para poder iniciar o desenvolvimento. 
 
@@ -43,6 +43,6 @@ O projeto possui o arquivo principal na raiz do projeto, com toda a estrutura do
 **css:** Possui os arquivos de estilização do template.
 
 <br /><br />
-**Espero que goste do template e, se puder, me segue lá na minha página de programação do Instagram clicando [aqui](https://instagram.com/enthony.dev). Semanalmente eu posto vários conteúdos, códigos e dicas sobre programação, então, corre lá!**
+**Espero que goste do template e, se puder, me segue lá na minha página de programação do Instagram clicando [aqui](https://instagram.com/vii.enthony). Semanalmente eu posto vários conteúdos, códigos e dicas sobre programação, então, corre lá!**
 
 **Ah, e antes que eu me esqueça, esse projeto pode sofrer atualizações com o tempo, então, fiquem ligados!**
